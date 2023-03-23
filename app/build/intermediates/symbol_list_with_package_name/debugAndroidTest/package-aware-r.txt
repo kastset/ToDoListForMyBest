@@ -1,0 +1,3 @@
+ua.kastset.todolistformybest.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
