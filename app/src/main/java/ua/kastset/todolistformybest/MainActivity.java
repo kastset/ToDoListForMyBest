@@ -20,7 +20,7 @@ import ua.kastset.todolistformybest.Adapter.ToDoAdapter;
 import ua.kastset.todolistformybest.Adapter.Model.ToDoModel;
 import ua.kastset.todolistformybest.Utils.DataBaseHandler;
 
-public class MainActivity extends AppCompatActivity implements DialogCloseListner {
+public class MainActivity extends AppCompatActivity implements DialogCloseListener {
 
     private DataBaseHandler db;
 

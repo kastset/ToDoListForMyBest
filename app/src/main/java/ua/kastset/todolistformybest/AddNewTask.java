@@ -20,8 +20,6 @@ import androidx.core.content.ContextCompat;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 
-import java.util.Objects;
-
 import ua.kastset.todolistformybest.Adapter.Model.ToDoModel;
 import ua.kastset.todolistformybest.Utils.DataBaseHandler;
 
@@ -119,7 +117,7 @@ public class AddNewTask extends BottomSheetDialogFragment {
     @Override
     public void onDismiss(@NonNull DialogInterface dialog){
         Activity activity = getActivity();
-        if(activity instanceof DialogCloseListner)
-            ((DialogCloseListner)activity).handleDialogClose(dialog);
+        if(activity instanceof DialogCloseListener)
+            ((DialogCloseListener)activity).handleDialogClose(dialog);
     }
 }
